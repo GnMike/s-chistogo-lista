@@ -7,7 +7,7 @@
 body {
   margin: 0;
   background-color: #1e1e1e;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter",  sans-serif;
   font-weight: 400;
 }
 
@@ -50,7 +50,6 @@ span {
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
-  height: 132px;
   padding: 24px 20px;
 }
 
@@ -68,7 +67,6 @@ span {
 .header__menu {
   display: flex;
   width: 73px;
-  height: 85px;
 }
 
 .header__menu-list {
@@ -76,29 +74,27 @@ span {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 12px;
+  gap: 11px;
   list-style: none;
   font-size: 16px;
   line-height: 1.21;
 }
 
 .header__menu-item {
-  color: #f5f5f5;
+  border-bottom: 1px solid #f5f5f5; 
 }
 
-.header__menu-item_active {
-  color: #f5f5f5;
-  text-decoration: none;
+.header__menu-item_active:focus {
+  border-bottom: 0px; 
 }
 
 .header__menu-link {
   color: #f5f5f5;
   text-decoration: none;
-  border-bottom: 1px solid #f5f5f5;
 }
 
 .cover {
-  height: 228px;
+  min-height: 228px;
   padding-top: 7px;
   padding-left: 20px;
   padding-right: 24px;
@@ -128,23 +124,23 @@ span {
 }
 
 .intro {
-  height: 521px;
   padding: 30px 20px 38px;
 }
 
 .intro__heading {
   display: flex;
   justify-content: space-between;
-  height: 38px;
 }
 
 .intro__title {
   display: flex;
   width: 203px;
-  line-height: 120%;
+
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 16px;
+  line-height: 120%;
+ 
 }
 
 .intro__date {
@@ -155,7 +151,7 @@ span {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-top: 24px;
+  padding-top: 25px;
   gap: 24px;
   line-height: 21.6px;
 }
@@ -167,7 +163,7 @@ span {
 .content-section__subtitle {
   display: flex;
   flex-direction: column;
-  height: 63px;
+  min-height: 65px;
   font-family: "EB Garamond", sans-serif;
   font-weight: 500;
   font-size: 28px;
@@ -175,8 +171,8 @@ span {
 }
 
 .content-section__introduction {
-  padding-top: 32px;
-  margin-bottom: 32px;
+  padding-top: 30px;
+  margin-bottom: 31px;
   font-size: 20px;
   line-height: 27px;
 }
@@ -211,7 +207,7 @@ span {
 .cards-list {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 33px;
   list-style: none;
 }
 
@@ -239,7 +235,6 @@ span {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  height: 130px;
   gap: 10px;
 }
 
@@ -260,7 +255,7 @@ span {
 }
 
 .card__title {
-  font-family: "EB Garamond";
+  font-family: "EB Garamond", sans-serif;
   font-weight: 500;
   font-size: 22px;
 }
@@ -275,22 +270,35 @@ span {
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
-  height: 62px;
   padding: 20px;
   border-top: 1px solid #fee42a;
 }
 
-.footer__copy {
-  width: 92px;
-  height: 22px;
-}
-
-.footer__links {
+.footer-content-section__list {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   width: 73px;
-  height: 18px;
   font-size: 14px;
+  list-style-type: none;
+}
+
+.footer__copy {
+  width: 92px;
+  color: #f5f5f5;
+  text-decoration: none;
+}
+
+.footer__menu-item {
+  border-bottom: 0px solid #f5f5f5; 
+}
+
+.footer__menu-item_active:focus {
+  border-bottom: 0px; 
+}
+
+.footer__menu-link {
+  color: #f5f5f5;
+  text-decoration: none;
 }
