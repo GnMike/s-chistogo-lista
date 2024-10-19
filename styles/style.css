@@ -54,24 +54,24 @@ span {
   padding: 24px 20px;
 }
 
-.header__logo { /* ссылка-логотип */
+.header__logo {
   width: 78.46px;
   height: 15.43px;
 }
 
-.header__logo-image { /* картинка логотипа */
+.header__logo-image {
   width: 101%;
   height: auto;
   object-fit: contain;
 }
 
-.header__menu { /* контейнер с меню */
+.header__menu {
   display: flex;
   width: 73px;
   height: 85px;
 }
 
-.header__menu-list { /* список пунктов меню */
+.header__menu-list {
   display: flex;
   flex-direction: column; 
   align-items: flex-start;
@@ -82,16 +82,16 @@ span {
   line-height: 1.21;
 }
 
-.header__menu-item { /* пункт меню */
+.header__menu-item {
   color: #f5f5f5;
 }
 
-.header__menu-item_active { /* активный пункт меню */
+.header__menu-item_active {
   color: #f5f5f5;
   text-decoration: none; 
 }
 
-.header__menu-link { /* ссылка в пункте меню */
+.header__menu-link {
   color: #f5f5f5;
   text-decoration: none; 
   border-bottom: 1px solid #f5f5f5; 
@@ -108,22 +108,22 @@ span {
   background-position: 20px 30px;
 }
 
-.cover__title { /* заголовок */
+.cover__title {
   font-family: 'EB Garamond', sans-serif;
   font-weight: 400;
   font-size: 72px;
   line-height: 100%;
 }
 
-.accent-span { /* все строки */
+.accent-span {
   display: block;
 }
 
-.text-center { /* строка с выравниванием текста по центру */
+.text-center {
   margin-left: 47px;
 }
 
-.text-right { /* строка с выравниванием текста по правому краю */
+.text-right {
   text-align: right;
 }
 
@@ -132,13 +132,13 @@ span {
   padding: 30px 20px 38px;
 }
 
-.intro__heading { /* контейнер для элементов заголовка */
+.intro__heading {
   display: flex;
   justify-content: space-between;
   height: 38px;
 }
 
-.intro__title { /* заголовок */
+.intro__title {
   display: flex;
   width: 203px;
   line-height: 120%;
@@ -147,11 +147,11 @@ span {
   font-size: 16px;
 }
 
-.intro__date { /* дата публикации */
+.intro__date {
   white-space: nowrap;
 }
 
-.intro__main-text { /* контейнер для текста */
+.intro__main-text {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -160,11 +160,11 @@ span {
   line-height: 21.6px;
 }
 
-.reasons { /* желтый */
+.reasons {
   padding: 40px 20px;
 }
 
-.content-section__subtitle { /* заголовок */
+.content-section__subtitle {
   display: flex;
   flex-direction: column;
   height: 63px;
@@ -174,14 +174,14 @@ span {
   line-height: 115%;
 }
 
-.content-section__introduction { /* абзац перед списком */ 
+.content-section__introduction {
   padding-top: 32px;
   margin-bottom: 32px;
   font-size: 20px;
   line-height: 27px;
 }
 
-.content-section__list { /* список  ul */
+.content-section__list {
   list-style: none; 
   display: flex;
   flex-direction: column;
@@ -189,7 +189,7 @@ span {
   row-gap: 16px;
 }
 
-.content-section__list-item { /* пункт списка li */
+.content-section__list-item {
   padding-top: 1px;
   padding-left: 16px;
   line-height: 1.345em;
@@ -199,28 +199,28 @@ span {
   background-position: top left;
 }
 
-.content-section__list-accent { /* выделенный жирным начертанием текст внутри списка */
+.content-section__list-accent {
   display: inline;
   font-weight: 700;
 }
 
-.how-to { /* черный */
+.how-to {
   padding: 40px 20px 60px;
 }
 
-.cards-list { /* список карточек */
+.cards-list {
   display: flex;
   flex-direction: column;
   gap: 32px;
   list-style: none;
 }
 
-.card { /* карточка */
+.card {
   padding: 20px 20px;
   border-radius: 32px;
 }
 
-.card_text-only { /* карточка без фото */
+.card_text-only {
   padding-top: 10px;
   padding-bottom: 2px;
 }
@@ -235,7 +235,7 @@ span {
   color: #131313;
 }
 
-.card__author { /* контейнер с информацией об авторе */
+.card__author {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -243,29 +243,29 @@ span {
   gap: 10px;
 }
 
-.card__author-photo { /* фото автора */
+.card__author-photo {
   width: 100px;
   height: 100px;
   border-radius: 50px;  
 }
 
-.card__author-name { /* имя автора */
+.card__author-name {
   height: 20px;
   font-weight: 700;
 }
 
-.card__content { /* контейнер для контента карточки */
+.card__content {
   width: 279px;
   padding-top: 8px;
 }
 
-.card__title { /* заголовок перед текстом карточки */
+.card__title {
   font-family: 'EB Garamond';
   font-weight: 500;
   font-size: 22px;
 }
 
-.card__text { /* контейнер для текста карточки */
+.card__text {
   padding-top: 8px;
   line-height: 21.6px;
 }
