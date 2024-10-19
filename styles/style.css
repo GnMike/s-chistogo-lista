@@ -81,11 +81,11 @@ span {
 }
 
 .header__menu-item {
-  border-bottom: 1px solid #f5f5f5; 
+  border-bottom: 1px solid #f5f5f5;
 }
 
 .header__menu-item_active:focus {
-  border-bottom: 0px; 
+  border-bottom: 0px;
 }
 
 .header__menu-link {
@@ -291,11 +291,11 @@ span {
 }
 
 .footer__menu-item {
-  border-bottom: 0px solid #f5f5f5; 
+  border-bottom: 0px solid #f5f5f5;
 }
 
 .footer__menu-item_active:focus {
-  border-bottom: 0px; 
+  border-bottom: 0px;
 }
 
 .footer__menu-link {
