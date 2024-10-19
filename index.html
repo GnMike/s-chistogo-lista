@@ -9,19 +9,19 @@
   </head>
   <body>
     <header class="header content-section content-section_theme_dark">
-      <a class="header__logo" href="#">
+      <a class="header__logo" href="index.html"> 
         <img class="header__logo-image" src="./images/logo.svg" alt="Вёрстка">
       </a>
       <nav class="header__menu">
         <ul class="header__menu-list">
           <li class="header__menu-item">
-            <a class="header__menu-item_active" href="#0">Главная</a>
+            <a class="header__menu-link header__menu-item_active" href="#0">Главная</a>
           </li>
           <li class="header__menu-item">
-            <a class="header__menu-link" href="#0">О нас</a>
+            <a class="header__menu-link header__menu-item_active" href="#0">О нас</a>
           </li>
           <li class="header__menu-item">
-            <a class="header__menu-link" href="#0">Контакты</a>
+            <a class="header__menu-link header__menu-item_active" href="#0">Контакты</a>
           </li>
         </ul>
       </nav>
@@ -200,11 +200,15 @@
       </section>
     </main>
     <footer class="footer content-section content-section_theme_dark">
-      <p class="footer__copy">© VЁRSTKA</p>
-      <div class="footer__links">
-        <p>ВК</p>
-        <p>Ютуб</p>
-      </div>
+      <a class="footer__copy" href="#0">© VЁRSTKA</a>
+      <ul class="footer-content-section__list">
+        <li class="footer__menu-item">
+          <a class="footer__menu-link footer__menu-item_active" href="#0">ВК</a>
+        </li>
+        <li class="footer__menu-item">
+          <a class="footer__menu-link footer__menu-item_active" href="#0">Ютуб</a>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>
