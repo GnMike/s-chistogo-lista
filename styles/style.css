@@ -7,7 +7,7 @@
 body {
   margin: 0;
   background-color: #1e1e1e;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
 }
 
@@ -32,7 +32,7 @@ span {
 .content-section {
   width: 360px;
   margin-left: auto;
-  margin-right: auto; 
+  margin-right: auto;
 }
 
 .content-section_theme_dark {
@@ -47,7 +47,7 @@ span {
 
 .header {
   display: flex;
-  flex-direction: row; 
+  flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
   height: 132px;
@@ -73,9 +73,9 @@ span {
 
 .header__menu-list {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   align-items: flex-start;
-  justify-content:flex-start;
+  justify-content: flex-start;
   gap: 12px;
   list-style: none;
   font-size: 16px;
@@ -88,18 +88,18 @@ span {
 
 .header__menu-item_active {
   color: #f5f5f5;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .header__menu-link {
   color: #f5f5f5;
-  text-decoration: none; 
-  border-bottom: 1px solid #f5f5f5; 
+  text-decoration: none;
+  border-bottom: 1px solid #f5f5f5;
 }
 
 .cover {
   height: 228px;
-  padding-top: 7px; 
+  padding-top: 7px;
   padding-left: 20px;
   padding-right: 24px;
   background-image: url(../images/cover.svg);
@@ -109,7 +109,7 @@ span {
 }
 
 .cover__title {
-  font-family: 'EB Garamond', sans-serif;
+  font-family: "EB Garamond", sans-serif;
   font-weight: 400;
   font-size: 72px;
   line-height: 100%;
@@ -142,7 +142,7 @@ span {
   display: flex;
   width: 203px;
   line-height: 120%;
-  font-family: 'Inter';
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 16px;
 }
@@ -168,7 +168,7 @@ span {
   display: flex;
   flex-direction: column;
   height: 63px;
-  font-family: 'EB Garamond', sans-serif;
+  font-family: "EB Garamond", sans-serif;
   font-weight: 500;
   font-size: 28px;
   line-height: 115%;
@@ -182,10 +182,10 @@ span {
 }
 
 .content-section__list {
-  list-style: none; 
+  list-style: none;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;  
+  justify-content: flex-start;
   row-gap: 16px;
 }
 
@@ -246,7 +246,7 @@ span {
 .card__author-photo {
   width: 100px;
   height: 100px;
-  border-radius: 50px;  
+  border-radius: 50px;
 }
 
 .card__author-name {
@@ -260,7 +260,7 @@ span {
 }
 
 .card__title {
-  font-family: 'EB Garamond';
+  font-family: "EB Garamond";
   font-weight: 500;
   font-size: 22px;
 }
