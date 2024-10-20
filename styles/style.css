@@ -245,19 +245,19 @@ span {
 }
 
 .card__author-name {
-  height: 20px;
   font-weight: 700;
 }
 
 .card__content {
   width: 279px;
-  padding-top: 8px;
+  padding-top: 7px;
 }
 
 .card__title {
   font-family: "EB Garamond", sans-serif;
   font-weight: 500;
   font-size: 22px;
+  line-height: 135%;
 }
 
 .card__text {
